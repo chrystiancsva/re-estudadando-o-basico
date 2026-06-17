@@ -1,0 +1,16 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.navebar{
+    display: flex;
+    gap: 20px;
+}
+
+.formulario li{
+    display: block;
+    margin: 15px;
+    row-gap: 20px;
+}
