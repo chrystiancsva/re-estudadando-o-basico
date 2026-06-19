@@ -1,0 +1,31 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#ficha-cadastro{
+    max-width: 450px;
+    max-height: 529px;
+    margin: 40px;
+    font-family: "roboto";
+    box-shadow: 10px;
+}
+
+div{
+    border: 10px;
+    border-color: gray;
+}
+
+#cadastrar{
+    background-color: #00A600;
+    border-radius: 5px;
+    border-color: #00A600;
+}
+
+.termos{
+    font-size: 10px;
+}
+
+input{
+    gap: 30px;
+}
