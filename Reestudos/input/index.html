@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testes de form/input</title>
+    <title>Testes e tipos de form/input</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,10 +24,20 @@
         <section>
             <form action="">
                 <ul class="formulario">
-                    <li><input type="text" name="nome" placeholder="nome"></li>
-                    <li><input type="text" name="email" placeholder="email"></li>
-                    <li><input type="text" name="telefone" placeholder="telefone"></li>
-                    <li><textarea name="duvida" placeholder="digite aqui sua dúvida"></textarea></li>
+                    <form action="">
+                        <li><h1>inputs descritivos</h1></li>
+                        <li><label for="nome">nome:</label><input id="nome" type="text" name="nome" placeholder="nome"></li>
+                        <li><label for="email">email:</label><input id="email" type="text" name="email" placeholder="email"></li>
+                        <li><label for="telefone">telefone:</label><input id="telefone" type="number" name="telefone" placeholder="telefone"></li>
+                        <li><label for="duvida">duvida:</label><textarea id="duvida" name="duvida" placeholder="digite aqui sua dúvida"></textarea></li>
+                        <li><label for="senha">senha:</label><input id="senha" type="password"></li>
+                        <li><input type="number"></li>
+                        <li><input type="submit"></li>
+                        <li><input type="text"></li>
+                        <h1>inputs de marcar</h1>
+                        <li><h2>seleciona somente uma das opções</h2><input type="radio"></li>
+                        <li><h2>pode ser marcado mais de uma vez no grupo</h2><input type="checkbox"></li>
+                    </form>
                 </ul>
             </form>
         </section>
