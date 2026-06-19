@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -33,35 +34,43 @@
     <figure><img src="../src/formulário.jpg" alt=""></figure>
 
 
-    <h1>desafio:copiar o fomulário da imagem</h1>
+    <h1>desafio:copiar o fomulário da imagem(sem ficar igual em estilo, apenas a base)</h1>
     <div>
-    <form action="index.html" method="get" id="ficha-cadastro">
-        <h1>Cadastre-se</h1><br>
-        <h2></h2>É rápido e fácil</h2><br>
-        <input type="text" placeholder="Nome" name=""> <input placeholder="Sobrenome" type="text" name=""><br>
-        <input type="email tel" placeholder="Celular ou email" name=""><br>
-        <input type="password" placeholder="Nova senha" name="" id="senha"><br>
-        <label for="Data de nascimento"></label><br>
-        <select name="" id="dia">
-            <option value="">Dia</option>
-        </select>
-        <select name="" id="mês">
-            
-        </select>
-        <select name="" id="ano">
+        <form action="index.html" method="get" id="ficha-cadastro" name="kkkk" enctype="multipart/form-data">
+            <p>
+            <h1>Cadastre-se</h1>
+            <h2>É rápido e fácil</h2>
+            </p>
+            <hr>
+            <input type="text" placeholder="Nome" value="ccdd" name="nome" id="nome"> <input placeholder="Sobrenome" type="text" name="sobrenome"
+                id="sobrenome" value="swsss"><br>
+            <input type="email tel" placeholder="Celular ou email" name="email-ou-celular" id="email" value="ddd"><br>
+            <input type="password" placeholder="Nova senha" name="senha" id="senha"><br>
+            <label for="Data de nascimento"></label><br>
+            <select name="dia" id="dia">
+                <option value="">Dia</option>
+            </select>
+            <select name="mes" id="mês">
+                <option value="mês"></option>
+            </select>
+            <select name="ano" id="ano">
+                <option value="ano"></option>
+            </select>
+            <br>
+            <label for="Feminino">Feminino</label><input type="radio" name="genero" id="Feminino" value="Feminino">
+            <label for="Masculino">Masculino</label><input type="radio" name="genero" id="Masculino" value="Masculino">
+            <label for="Personalizado">Personalizado</label><input type="radio" name="genero" id="Personalizado" value="Personalizado">
 
-        </select>
-        <br>
-        <label for="Feminino">Feminino</label><input type="radio" name="genero" id="Feminino">
-        <label for="Masculino">Masculino</label><input type="radio" name="genero" id="Masculino">
-        <label for="Personalizado">Personalizado</label><input type="radio" name="genero" id="Personalizado">
+            <h3 class="termos">Ao clicar em cadastre-se, você concorda com nossos termos
+                , politicas de dados e política de Cookies. Você
+                poderá receber notificações por sms e cancelar quando quiser.</h3>
 
-        <h3 class="termos">Ao clicar em cadastre-se, você concorda com nossos termos
-            , politicas de dados e política de Cookies. Você
-            poderá receber notificações por sms e cancelar quando quiser.</h3>
+            <input type="file">
 
-            <button type="reset" id="cadastrar">Cadastre-se</button>
-    </form>
+            <input type="submit" value="enviar">    
+
+            <button type="submit" id="cadastrar">Cadastre-se</button>
+        </form>
     </div>
 
 
