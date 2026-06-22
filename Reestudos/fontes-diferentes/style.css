@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Cursiva';
+    src: url(./src/fontes/LatenzaScript_PERSONAL_USE_ONLY.otf);
+}
+
+h1{
+    font-family: Cursiva;
+}
