@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picture</title>
+</head>
+<body>
+
+    <h1>diferença entre  img e picture</h1>
+
+    <p>ima serve para upar uma imagem comum, picture pode ser usado
+        para coisas como carregar masi de uma imagem em uma tag de forma a selecionar
+        uma delas para de adequar a tela de acordo com a necessidade e responsividade
+    </p>
+
+    <!-- apenas uma imagem utilizada -->
+    <img src="src/batman.jpg" alt="" > 
+
+    <!-- imagem responsiva -->
+    <picture>
+        <source srcset="src/batman-pequena.jpg" media="(max-width:600px)">
+
+        <img src="src/batman.jpg" alt="">
+    </picture>
+
+    
+</body>
+</html>
