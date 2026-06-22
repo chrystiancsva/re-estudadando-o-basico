@@ -1,0 +1,28 @@
+/* pode-se criar as varíaveis dentro da root e utiliza-lás 
+pelo código facilitando possíveis edições futuras:
+pode-se também colocar uma característica secundaria dentro da 
+passada variavel para caso a primeira nao seja utilizavel */
+
+:root{
+    --cor-padrao: red;
+    --tamanho-fonte: 20px;
+}
+
+h1{
+        color: var(--cor-padrao, blue);
+    font-size: var(--tamanho-fonte);
+}
+
+h2{
+        color: var(--cor-padrao);
+    font-size: var(--tamanho-fonte);
+}
+
+
+/*  podese tambem usar var local asssim dentro do p´roprio css do seletor   */
+
+p{
+    --cor-legal: green; 
+    color: var(--cor-padrao);
+    font-size: var(--tamanho-fonte);
+}
