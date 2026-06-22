@@ -1,0 +1,13 @@
+/* exemplos de media queryes */
+
+@media (max-width: 600px) {
+
+    /* conteudo do css até 600 px */
+    
+}
+
+@media (max-width: 900px) {
+
+    /* conteudo do css até 900 px */
+    
+}
